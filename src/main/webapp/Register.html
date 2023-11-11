@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="register" method="post">
+<table>
+<tr>
+<th>First name:</th>
+<th><input type="text" name="firstname" required="required"></th>
+</tr>
+<tr>
+<th>Last name:</th>
+<th><input type="text" name="lastname" required="required"></th>
+</tr>
+<tr>
+<th>Mobile:</th>
+<th><input type="tel" pattern="[0-9]{10}" name="mobile" required="required"></th>
+</tr>
+<tr>
+<th>Email:</th>
+<th><input type="email" name="email" required="required"></th>
+</tr>
+<tr>
+<th>Gender:</th>
+<th>
+<input type="radio" name="gender" value="male" required="required">Male
+<input type="radio" name="gender" value="female">Female
+</th>
+</tr>
+<tr>
+<th>Create Password:</th>
+<th><input type="password" name="createpassword" id="createpassword" required="required"></th>
+</tr>
+<tr>
+<th>Confirm Password:</th>
+<th><input type="password" name="confirmpassword"  id="confirmpassword" required="required"></th>
+</tr>
+<tr>
+<th>Date of Birth:</th>
+<th><input type="date" name="dob" required="required"></th>
+</tr>
+<tr>
+<th><button type="reset">Cancel</button></th>
+<th><button>Register</button></th>
+
+</tr>
+</table>
+</form>
+
+<a href="Login.html">Already Registered? Click here to Login</a>
+</body>
+</html>
